@@ -1,0 +1,13 @@
+app:
+  name: CurrencyExchangeApp
+  port: :3000
+
+database:
+  #host: localhost
+  #port: 3306
+  #user: fzq
+  #password: loukang123
+  #name: dbfzq
+  dsn: root:123456@tcp(127.0.0.1:3306)/loukang?charset=utf8mb4&parseTime=True&loc=Local
+  maxIdleConns: 11
+  maxOpenConns: 114
